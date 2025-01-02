@@ -95,3 +95,13 @@ input {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
+
+/* Hide text but make it visible on selection */
+.hidden-text {
+  color: transparent !important;
+}
+
+.hidden-text::selection {
+  color: black !important; /* 원하는 색상으로 변경 */
+  background: yellow !important; /* 선택 시 배경색도 변경 가능 */
+}

@@ -16,8 +16,8 @@
 
     <div class="container mt-5">
         <h1 class="display-4 text-center">Object Storage 연결 정보</h1>
-        <h5 class="text-center text-muted">https://kr2-api-object-storage.nhncloudservice.com</h5>
-        <form action="token.php" method="post" class="mt-4">
+        <h6 class="text-center text-muted">API 엔드포인트 설정 정보를 Console에서 확인 후 기재해주세요</h6>
+        <h6 class="text-center text-muted hidden-text">Object storage 엔드포인트 정보 : https://kr2-api-object-storage.nhncloudservice.com</h6>        <form action="token.php" method="post" class="mt-4">
             <div class="mb-3">
                 <label for="STORAGE_URL" class="form-label text-start">STORAGE_URL:</label>
                 <input type="text" id="STORAGE_URL" name="STORAGE_URL" class="form-control">
